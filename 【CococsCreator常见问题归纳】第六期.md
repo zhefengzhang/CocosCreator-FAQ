@@ -85,7 +85,7 @@
 
 > A: 勾选自动图集面板中的 packable 选项之后重新打包即可。
 >
-> ![image-20191108134905519](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20191108134905519.png)
+>  ![img](https://forum.cocos.org/uploads/default/original/3X/a/3/a38dca2c55c659db126658ea621a5c3c6d24f61d.png) 
 
 [3、Label使用系统字体在iPhone上显示得特别小的BUG](https://forum.cocos.org/t/label-iphone-bug/85418)
 
