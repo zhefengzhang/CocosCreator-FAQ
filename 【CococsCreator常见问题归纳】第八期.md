@@ -87,7 +87,7 @@ https://github.com/cocos-creator/engine/pull/6016
 
 1、CocosCreator 2.2.0 版本之后，让精灵制灰应该怎么做：
 > A: 参考代码：
-> ```
+```js
 let grayMaterial = cc.Material.getBuiltinMaterial('2d-gray-sprite');
 cc.find("Canvas/cocos").getComponent(cc.Sprite).setMaterial(0, grayMaterial);
 ```
@@ -97,8 +97,7 @@ cc.find("Canvas/cocos").getComponent(cc.Sprite).setMaterial(0, grayMaterial);
 
 [3、CocosCreator 设备扫一扫预览的问题](https://forum.cocos.org/t/creator-2-0-9/78364)
 > A: https://forum.cocos.org/uploads/default/original/3X/b/0/b06a50bcf8fad031ad34394cdf63b3604e4c8aa9.png
-> win10，cocos2.1.3有这个问题，1.9.3没有这个问题。
-最后解决就是在防火墙里面配置，把cocos全部允许通过
+> A: 在防火墙里面配置，把cocos全部允许通过
 
 [4、2.2.0打包安卓 字体投影效果失效，ttf字体](https://forum.cocos.org/t/2-2-0-ttf/87896)
 > A: 原生平台的 Canvas 还没支持 shadow 的特性设置，后面会陆续补全 Web 端 Canvas 的功能。
