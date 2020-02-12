@@ -73,11 +73,11 @@ https://github.com/cocos-creator/engine/pull/6016
 
 > PR: https://github.com/cocos-creator/engine/pull/6016
 
-[13、修复 PageView 在超出边界时进行快速二次拖动，会导致页面跳转错乱](https://forum.cocos.org/t/creator2-1-2-pageview--curpageidx/87562)
+[14、修复 PageView 在超出边界时进行快速二次拖动，会导致页面跳转错乱](https://forum.cocos.org/t/creator2-1-2-pageview--curpageidx/87562)
 
 > PR: https://github.com/cocos-creator/engine/pull/6015
 
-[13、修复纹理压缩导致 TiledMap 地表层渲染错误](https://forum.cocos.org/t/2-2-1-tiledmap/85455)
+[15、修复纹理压缩导致 TiledMap 地表层渲染错误](https://forum.cocos.org/t/2-2-1-tiledmap/85455)
 
 > PR: https://github.com/cocos-creator/engine/pull/5999
 
