@@ -50,8 +50,8 @@
 > Q: 当多个平面（包括精灵转3d，plane，还有box的z轴scale0.1）叠在一起而y旋转角度不同时，
 > 平面间的绘图顺序会出现问题，类似于ps的图层一样，最后放置的物体会显示在最前，
 > 无视空间前后关系
-> https://forum.cocos.org/uploads/default/original/3X/7/e/7ebf91f15bd63f8b1f67fdacbcf8731eece9b59a.png
-> https://forum.cocos.org/uploads/default/original/3X/9/f/9f72ec11ea284e48d6b1d018c36a8b9237f35117.png
+> ![Image Text](https://forum.cocos.org/uploads/default/original/3X/7/e/7ebf91f15bd63f8b1f67fdacbcf8731eece9b59a.png)
+> ![Image Text](https://forum.cocos.org/uploads/default/original/3X/9/f/9f72ec11ea284e48d6b1d018c36a8b9237f35117.png)
 > 
 > A: 你的 tree 用的是 sprite + 2d 的材质，没有打开深度测试，改为 plane + unlit 材质 并且 打开 alpha test 试下
 
@@ -72,7 +72,7 @@
 > Cocos Creator 中我们需要自己修改引擎代码。
 > 找到WebEditBoxImpl.js  如下图所示位置，加入红框代码。
 > 之后编译引擎即可。
-https://forum.cocos.org/uploads/default/original/3X/0/9/099ce4c74e11fac4a46ac1447fc4097e1dfaab56.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/0/9/099ce4c74e11fac4a46ac1447fc4097e1dfaab56.png)
 
 [5、插件怎么监听键盘事件？](https://forum.cocos.com/t/topic/80582)
 
@@ -86,12 +86,12 @@ https://github.com/amhoho/electron-cn-docs/blob/master/tutorial/keyboard-shortcu
 > 系统字体本身就已经注册过，如果使用ttf的话，注册字体的时候就会不成功，这样就直接走失败的回调，会使用默认字体替代。
 > 解决方案：
 > 修改Label组件为如下所示
-https://forum.cocos.org/uploads/default/original/3X/3/1/31ae52c13e82a6b6705b5afe80009ce6ae04bd71.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/3/1/31ae52c13e82a6b6705b5afe80009ce6ae04bd71.png)
 
 [7、使用Scheduler定时器报错](https://forum.cocos.com/t/cc-scheduler-illegal-target-which-doesnt-have-uuid-or-instanceid/81689)
 
 > Q: error：cc.Scheduler: Illegal target which doesn’t have uuid or instanceId
-https://forum.cocos.org/uploads/default/original/3X/9/c/9c822c5010d0ff2484db4906a1da98ac79d3cbe0.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/9/c/9c822c5010d0ff2484db4906a1da98ac79d3cbe0.png)
 
 > A: 方案：
 > cc.director.getScheduler().enableForTarget(this);
@@ -100,4 +100,4 @@ https://forum.cocos.org/uploads/default/original/3X/9/c/9c822c5010d0ff2484db4906
 > 这个可以参考API文档：
 > https://docs.cocos.com/creator/api/zh/classes/Scheduler.html#enablefortarget
 > 或者查阅引擎源码
-> https://forum.cocos.org/uploads/default/original/3X/6/7/6717975308a03cda59c322df8cc23f81da67445b.png
+> ![Image Text](https://forum.cocos.org/uploads/default/original/3X/6/7/6717975308a03cda59c322df8cc23f81da67445b.png)

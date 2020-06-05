@@ -73,7 +73,7 @@ https://github.com/cocos-creator/engine/pull/4653/files
 [1、2.1.1 动态修改material 贴图 ](https://forum.cocos.com/t/cocos-creator-cc-texrure2d/78425)
 
 > A: 材质贴图接收的是cc.Texture2D对象，所以我们可以自己添加在属性面板一个cc.Texture2D对象。
-https://forum.cocos.org/uploads/default/original/3X/3/c/3c0f58b742338e6279fc3baf9808dac49f19b1e1.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/3/c/3c0f58b742338e6279fc3baf9808dac49f19b1e1.png)
 ```
 spriteFrame.getTexture()
 ```
@@ -89,7 +89,7 @@ setProperty这个接口是可以修改材质上几乎所有属性的。
 > A: 因为这两个平台的touchID本身就是不一样的，这个需要注意一下。
 所以touchID并不能作为多点触控的序号标识，
 你应该获取
-https://forum.cocos.org/uploads/default/original/3X/a/b/ab85fae303142fe2231744dac86694fb51ac13a6.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/a/b/ab85fae303142fe2231744dac86694fb51ac13a6.png)
 event.getTouches().length;
 这个字段来检测触点数量
 
@@ -103,7 +103,8 @@ event.getTouches().length;
 
 [5、VIVO window.requestAnimFrame 未捕获的错误](https://forum.cocos.com/t/vivo-window-requestanimframe/77984)
 
-> A: https://forum.cocos.org/uploads/default/original/3X/3/3/337c1774970ea06dc521df710d6fe5cfb3f0e514.png
+> A: 
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/3/3/337c1774970ea06dc521df710d6fe5cfb3f0e514.png)
 如果windows.requestAnimFrame没有初始化的话，就赋值为16。
 
 [6、按钮的点击事件失效](https://forum.cocos.com/t/demo/79910?u=337031709)
@@ -111,7 +112,7 @@ event.getTouches().length;
 > A: 这是2.0.10版本存在的缺陷，你需要在切换按钮的透明度之后再调用
 节点的onSiblingIndexChanged函数，根据arrivalOrder重新刷新场景渲染顺序。
 你可以这样使用：
-https://forum.cocos.org/uploads/default/original/3X/6/2/62a5ceb8e39c8b090a567cf5e12650caebfded1a.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/6/2/62a5ceb8e39c8b090a567cf5e12650caebfded1a.png)
 
 [7、取消定时器失败，定时器仍然运行](https://forum.cocos.com/t/topic/78597)
 
@@ -174,11 +175,11 @@ cc.Class({
 });
 
 ```
-https://forum.cocos.org/uploads/default/original/3X/5/a/5aa8f242ca2019d92d6b3db878b06c5dd9bf1d61.gif
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/5/a/5aa8f242ca2019d92d6b3db878b06c5dd9bf1d61.gif)
 2、http://forum.cocos.com/t/topic/78766/1
 这个需求可以利用creator的控件库插件解：
 将需要用到的prefab拉到控件库，下次使用的时候只要拖出来就行。
-https://forum.cocos.org/uploads/default/original/3X/6/9/6935442a4acf0e0e4453c286364d482f572f7081.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/6/9/6935442a4acf0e0e4453c286364d482f572f7081.png)
 
 [9、使用 cc.loader.loadRes加载cc.BufferAssets类型报错](https://forum.cocos.com/t/cc-loader-loadres-cc-bufferassets/80009)
 
@@ -235,7 +236,7 @@ https://forum.cocos.org/uploads/default/original/3X/f/2/f2ac8537d0da8507cec8f206
 > A: 1、box2d弹力问题：
 > 弹力属于特殊运动，物理系统在游戏生命周期内会不断计算刚体的状态和位置。目前可以通过降低物理系统的update回调传递的dt参数的精度来优化这个问题。
 > 找到box2d.js中的这段代码，然后改一下红框部分的代码。
-> ![](/uploads/default/original/3X/4/2/421fbb31cc0c2a35b5580bdbe01ad148a00f9d8e.png)
+> ![Image Text](https://forum.cocos.org/uploads/default/original/3X/4/2/421fbb31cc0c2a35b5580bdbe01ad148a00f9d8e.png)
 > 还有另外一种方案是开启一个计时器，判断多次回弹时每次幅度是否小于某个值（比如dt），然后再手动停止这个物体的弹跳。
 > 2、3属于同类问题，开启gold刚体的摩擦力即可。
 

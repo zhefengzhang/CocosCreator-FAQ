@@ -45,10 +45,10 @@
 >A:删除项目中的local文件夹的layout.windows.json也可以解决问题。
 
 #### *[4、rpk包构建失败！错误：Error: Command failed:rpk包构建失败！错误：Error: Command failed: quickgame.cmd pack'quickgame.cmd' ](https://forum.cocos.com/t/oppo-vivo-bug/68839/11?u=337031709)*
->A:<img src="/uploads/default/original/3X/e/2/e21988a783efcb022c604aea63fb52d892097854.png" width="634" height="123">
+>A:![Image Text](https://forum.cocos.org/uploads/default/original/3X/e/2/e21988a783efcb022c604aea63fb52d892097854.png)
 现这个报错可以将类似的quickgame-toolkit\lib\bin目录路径加入环境变量Path
  ;E:\quickgame-toolkit\lib\bin\
-<img src="/uploads/default/original/3X/b/9/b9bcce9590409ec9360aaa7d9ce66e8c28fb0e91.png" width="622" height="51">
+ ![Image Text](https://forum.cocos.org/uploads/default/original/3X/b/9/b9bcce9590409ec9360aaa7d9ce66e8c28fb0e91.png)
 保存之后，需要等一小会才能看到quickgame-toolkit版本。这样就解决问题了。
 
 #### *[5、oppo构建发布程序包报以下错误： Error:release 签名不存在! ](https://forum.cocos.com/t/oppo-vivo-bug/68839/11?u=337031709)*
@@ -109,34 +109,45 @@ https://code.visualstudio.com/docs/editor/tasks#vscode3
 ```
 #### *[14、场景突然打不开 ](https://forum.cocos.com/t/topic/70088/2?u=337031709)*
 >A:
-><img src="/uploads/default/original/3X/e/6/e6a5abf72e2827dd835f35246afa38231babe16c.png" width="347" height="382">
+ ![Image Text](https://forum.cocos.org/uploads/default/original/3X/e/6/e6a5abf72e2827dd835f35246afa38231babe16c.png)
 如果有保存或托管了场景文件，请对比下文件差异，这个问题应该是异常保存了场景文件导致的场景文件某个属性出现异常。
 用vscode 等代码编辑器打开异常项目，查看下_id是否为null
+
 #### *[15、DragonBones骨骼动画（texture）会有黑边 ](https://forum.cocos.com/t/dragonbones/70312?u=337031709)*
 >A:  https://forum.cocos.com/t/dragonbones/70312/7?u=337031709
+
 #### *[16、Cocos Creator 2.0.5 打包Windows出错 ](https://forum.cocos.com/t/cocos-creator-2-0-5-windows/69046?u=337031709)*
->A: 你使用哪个版本的vs编译的，用vs2017编译看看，一般都是vs的编译环境没完全安装好 出现的问题  !
-<img src="/uploads/default/original/3X/0/b/0b80c3ac5a86c41e398ed4ee3517049f6ddb73ca.png" width="357" height="373">
-<img src="/uploads/default/original/3X/6/2/62c0519bdff484b850421b6a6183401d234e8b9d.png" width="351" height="500">
+>A: 你使用哪个版本的vs编译的，用vs2017编译看看，一般都是vs的编译环境没完全安装好 出现的问题!
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/0/b/0b80c3ac5a86c41e398ed4ee3517049f6ddb73ca.png)
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/6/2/62c0519bdff484b850421b6a6183401d234e8b9d.png)
+
 #### *[17、修改引擎js源码怎么生效 ](https://forum.cocos.com/t/js/69546?u=337031709)*
 >A:  [定制 JavaScript 引擎](https://docs.cocos.com/creator/manual/zh/advanced-topics/engine-customization.html#1-%E5%AE%9A%E5%88%B6-javascript-%E5%BC%95%E6%93%8E)
+
 #### *[18、安装新版本后怎么安装低版本呢 ](https://forum.cocos.com/t/topic/70949?u=337031709)*
 >A: 直接把CocosCreator.app 更改名字就可以了，比如CososCreator193.app 但注意中间不能有空格。这样就可以多版本并存了。
+
 #### *[19、tileLayer.getTiledTileAt为何无法获得某一个矩阵坐标的tile。返回都是undefined。 ](https://forum.cocos.com/t/tilemap-tile/69123?u=337031709)*
 >A: 目前tileMap 的getTiledTileAt会判断在指定序列上_tiledTiles中是否已有tiledtile，有就输出，没有的话依据是否创建新的tiledtile（forceCreate）参数，执行相关代码。
 你的项目中本来就没创建过tiledtile，所以这个逻辑在你项目上表现是正常的。
 你可以通过setTiledTileAt (x, y, tiledTile)先创建一个，或者参考getTiledTileAt中的逻辑创建新的tiledtile，那么之后你getTiledTileAt()穿false就有东西了。
+
 #### *[20、项目无法打开，无法新建，ipc timeout,message: app:open-project, session:1@renderer:1012 ](https://forum.cocos.com/t/cocos-creator/67594?u=337031709)*
 >A:
 > * 重启编辑器。
+
 #### *[21、如何从2.0.5降级到1.9.3 ](https://forum.cocos.com/t/2-0-5-1-9-3/69191?u=337031709)*
 >A: 只能升，不能降。工具层面没办法做到同时导出旧版本兼容的格式。（请做好备份）
+
 #### *[22、求官方手册离线版2.1.0 ](https://forum.cocos.com/t/2-1-0/70925?u=337031709)*
 >A: https://github.com/cocos-creator/creator-docs
+
 #### *[23、creator2.0.5安卓调试无法断点? ](https://forum.cocos.com/t/2-1-0/70925?u=337031709)*
 >A:   https://forum.cocos.com/t/creator2-0-5/70105/10?u=337031709
+
 #### *[24、jsb2.0自动绑定对NDK版本有要求吗？ ](https://forum.cocos.com/t/jsb2-0-ndk/70374)*
 >A:   ndk 16，头文件路径是按那个来的
+
 #### *[25、android 打包问题 ](https://forum.cocos.com/t/android/70304?u=337031709)*
 >A:  项目设置里面模块设置的network要勾选 第一次打包建议全部勾选上 别去模块
 常见的打包失败4种问题
@@ -144,8 +155,10 @@ https://code.visualstudio.com/docs/editor/tasks#vscode3
 2.去掉了必要模块
 3.sdk或ndk版本太老或者太新
 4.环境变量问题
+
 #### *[26、android 版本编译成功但运行失败 ](https://forum.cocos.com/t/android/68591?u=337031709)*
 >A:   https://forum.cocos.com/t/android/68591/6?u=337031709
+
 #### *[27、2.1.0的3d深度问题](https://forum.cocos.com/t/2-1-0/70925?u=337031709)*
 >A: 目前仅对3d模型开启深度检测，可以在官方范例中的 mech-drone场景测试
 
@@ -171,8 +184,9 @@ https://github.com/cocos-creator-packages/qqplay-adapter/pull/513
 
 #### *[34、插件代码无法保存预制，求正确姿势](https://forum.cocos.com/t/topic/71708?u=337031709)*
 >A: 不是 asset 的 uuid
-<img src="/uploads/default/original/3X/6/f/6ff169f07b00f1344b29a3ca200dff4c36797034.png" width="690" height="144">
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/6/f/6ff169f07b00f1344b29a3ca200dff4c36797034.png)
 完整代码在 https://docs.cocos.com/creator/manual/zh/getting-started/faq.html
+
 #### *[35、creator videoPlayer上怎么叠加UI](https://forum.cocos.com/t/topic/71708?u=337031709)*
 >A: UI 可以用 Creator 做，Video 在各个平台都要自己适配，放在引擎 GL View 的下层，引擎中需要开启：
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
@@ -180,19 +194,24 @@ cc.macro.ENABLE_TRANSPARENT_CANVAS = true;
 cc.Camera.main.backgroundColor = cc.color(0, 0, 0, 0);
 如果有多个 Camera，每个都要设置
 至于视频怎么适配和呈现，就要自己做了
+
 #### *[36、发现个大问题，iPhone6-iOS12小游戏平台息屏再唤醒后卡死](https://forum.cocos.com/t/iphone6-ios12/66734?u=337031709)*
 >A: 引擎源码中找到下面代码，并屏蔽掉，可以解决此崩溃，这个标志是微信小游戏提供的，只对微信小游戏问题生效。
 //opts["preserveDrawingBuffer"] = true;
+
 #### *[37、可以定义类似CC_DEV 这样的常量吗](https://forum.cocos.com/t/cc-dev/72554?u=337031709)*
 >A: 自定义引擎完成后，打开 engine/gulp/util/utils.js 脚本，在最下面有一个 uglify 函数，可以根据需求自行修改其中的参数。例如，返回的对象里，有一个 global_defs 字典。修改其中的 key value 即可。
+
 #### *[38、速度被限制](https://forum.cocos.com/t/topic/68621?u=337031709)*
 >A: 因为box2d中限制了速度变化 可以在engine中的box2d.js下搜索
 b2_maxTranslation的定义
 手动修改它的值根据文档编译引擎
 https://docs.cocos.com/creator/manual/zh/advanced-topics/engine-customization.html#12-%E5%AE%89%E8%A3%85%E7%BC%96%E8%AF%91%E4%BE%9D%E8%B5%9619
-<img src="/uploads/default/original/3X/e/f/efcdeeb8ed37574f77ad809d9dd8972bf8bd011f.png" width="517" height="69">
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/e/f/efcdeeb8ed37574f77ad809d9dd8972bf8bd011f.png)
+
 #### *[39、网络图片加载失败怎么解决](https://forum.cocos.com/t/topic/72907?u=337031709)*
 >A: 这是请求资源时出现跨域问题，说明目标资源的资源服务器并不允许跨域访问资源。
+
 #### *[40、【creator求助】按钮的width设置为负数问题](https://forum.cocos.com/t/creator-width/72978?u=337031709)*
 >A: 目前引擎上是不支持node.width为负数的。
 会在编辑器和引擎上加些限制。
@@ -212,6 +231,7 @@ https://docs.cocos.com/creator/manual/zh/advanced-topics/engine-customization.ht
 ```
 > 恢复播放就用上面的play方法。
 恢复到初始状态的话你传入0.01差不多就够用了。
+
 #### *[42、Switching among scenes with translation Animations](https://forum.cocos.com/t/switching-among-scenes-with-translation-animations/72911?u=337031709)*
 >A: https://forum.cocos.com/t/switching-among-scenes-with-translation-animations/72911/6?u=337031709
 
@@ -222,13 +242,13 @@ https://docs.cocos.com/creator/manual/zh/advanced-topics/engine-customization.ht
 >A: 修改engine中的font-loader.js中的_timeout为一个较短的时间 例如 10000
 
 #### *[45、AudioSource有没有结束后的回调](https://forum.cocos.com/t/audiosource/73476?u=337031709)*
->A: <img src="/uploads/default/original/3X/a/7/a7e78ec28f6e3c219a8a97eca2563afe81c1ecfb.png" width="389" height="324">
+>A: ![Image Text](https://forum.cocos.org/uploads/default/original/3X/a/7/a7e78ec28f6e3c219a8a97eca2563afe81c1ecfb.png)
 参考这样的方案，由于audio目前没有提供设置播放结束回调的接口，需要开发者手动添加。
 
 #### *[46、this.dragonAtlasAsset.init is not a function](https://forum.cocos.com/t/this-dragonatlasasset-init-is-not-a-function/73417?u=337031709)*
 >A: 你好，这个属于cc.loader.loadResDir 的异常，它的加载是异步加载无法保证所加载的item顺序。
 切换使用loadRes可以解决问题。
-<img src="/uploads/default/original/3X/7/d/7d67ade203d369d03c612ff41873357faec17414.png" width="677" height="395">
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/7/d/7d67ade203d369d03c612ff41873357faec17414.png)
 
 #### *[47、有什么办法可以立即删除component的？](https://forum.cocos.com/t/component/73371?u=337031709)*
 >A: 可以使用这个api：
@@ -290,7 +310,7 @@ cc.Class({
 https://blog.csdn.net/keji_123/article/details/77717849
 方案：
 使用格式工厂输出AVC(H264)编码格式的MP4视频。
-<img src="/uploads/default/original/3X/f/e/fe9683d971d9fdaeb49c3c64d0e916e05d253953.png" width="584" height="95">
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/f/e/fe9683d971d9fdaeb49c3c64d0e916e05d253953.png)
 
 #### *[52、引擎升级后需要完全删除build目录然后重新构建吗？](https://forum.cocos.com/t/build/70019?u=337031709)*
 >A: 原因是引擎两个版本ABI库里面的文件不同，升级过的项目如果出现编译失败的话，参考方案可以项目其它文件夹删除直到只保留assets和packages文件夹，然后重新构建编译。
@@ -329,7 +349,7 @@ https://www.cnblogs.com/liugang-vip/p/6857595.html
 
 #### *[59、  求助creator中 Simulator如何自定义机型 ](https://forum.cocos.com/t/creator-simulator/76207?u=337031709)*
 >A: 在Cocos Creator设置界面可以设置自定义模拟器分辨率。
-<img src="/uploads/default/original/3X/0/7/072e8b1a7b05f1df3520e0031523e319c2a1f040.png" width="534" height="500">
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/0/7/072e8b1a7b05f1df3520e0031523e319c2a1f040.png)
 
 #### *[60、 2.1.1internal文件夹什么作用？  ](https://forum.cocos.com/t/ccc-2-1-1-internal/76886?u=337031709)*
 
