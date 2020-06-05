@@ -76,7 +76,7 @@ https://docs.cocos.com/creator/manual/zh/advanced-topics/hot-update.html
 >A:  https://forum.cocos.com/t/scrollview/67114/15?u=337031709
 
 #### *[11、CocosCreator调试预览的时候，如何设置不显示引擎信息 ](https://forum.cocos.com/t/cocoscreator/70236/2?u=337031709)*
->A:  web预览的话点击预览窗口中的ShowFPS按钮<img src="/uploads/default/original/3X/d/a/da7ec61ea974928a665166f15677fdf8eee2ae6d.png" width="100" height="44">
+>A:  web预览的话点击预览窗口中的ShowFPS按钮![Image Text](https://forum.cocos.org/uploads/default/original/3X/d/a/da7ec61ea974928a665166f15677fdf8eee2ae6d.png)
 或者使用cc.debug.setDisplayStats(false);
 这样模拟器和web预览都不会出现FPS信息
 
@@ -122,7 +122,7 @@ https://code.visualstudio.com/docs/editor/tasks#vscode3
 ![Image Text](https://forum.cocos.org/uploads/default/original/3X/6/2/62c0519bdff484b850421b6a6183401d234e8b9d.png)
 
 #### *[17、修改引擎js源码怎么生效 ](https://forum.cocos.com/t/js/69546?u=337031709)*
->A:  [定制 JavaScript 引擎](https://docs.cocos.com/creator/manual/zh/advanced-topics/engine-customization.html#1-%E5%AE%9A%E5%88%B6-javascript-%E5%BC%95%E6%93%8E)
+>A: [定制 JavaScript 引擎](https://docs.cocos.com/creator/manual/zh/advanced-topics/engine-customization.html#1-%E5%AE%9A%E5%88%B6-javascript-%E5%BC%95%E6%93%8E)
 
 #### *[18、安装新版本后怎么安装低版本呢 ](https://forum.cocos.com/t/topic/70949?u=337031709)*
 >A: 直接把CocosCreator.app 更改名字就可以了，比如CososCreator193.app 但注意中间不能有空格。这样就可以多版本并存了。
