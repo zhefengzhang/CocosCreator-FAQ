@@ -120,14 +120,14 @@ cc.macro.FIX_ARTIFACTS_BY_STRECHING_TEXEL_TMX = false;
 [1、小迷宫大冒险](https://forum.cocos.org/t/topic/87624)
 
 platform: WeChatMinGame
-QTCode: https://forum.cocos.org/uploads/default/original/3X/c/5/c5af08e1404c69646436f55879f2a33766854bd6.jpg
+QTCode: ![Image Text](https://forum.cocos.org/uploads/default/original/3X/c/5/c5af08e1404c69646436f55879f2a33766854bd6.jpg)
 
 [2、钢琴之王](https://forum.cocos.org/t/topic/76504)
 
 platform: WeChatMinGame
-QTCode: https://forum.cocos.org/uploads/default/original/3X/1/b/1b5ce904e28d4bcb0cab4daa0f8b7ed56fa0dce7.png
+QTCode: ![Image Text](https://forum.cocos.org/uploads/default/original/3X/1/b/1b5ce904e28d4bcb0cab4daa0f8b7ed56fa0dce7.png)
 
 [3、单挑篮球](https://forum.cocos.org/t/topic/84248)
 
 platform: WeChatMinGame
-QTCode: https://forum.cocos.org/uploads/default/original/3X/d/9/d91e1698d7a00b7c73ca0712a7cc846fdb7644fc.jpg
+QTCode: ![Image Text](https://forum.cocos.org/uploads/default/original/3X/d/9/d91e1698d7a00b7c73ca0712a7cc846fdb7644fc.jpg)

@@ -96,7 +96,7 @@ cc.find("Canvas/cocos").getComponent(cc.Sprite).setMaterial(0, grayMaterial);
 > A: 对于不需要保存的子节点，加一句node._objFlags = cc.Object.Flags.DontSave;
 
 [3、CocosCreator 设备扫一扫预览的问题](https://forum.cocos.org/t/creator-2-0-9/78364)
-> A: https://forum.cocos.org/uploads/default/original/3X/b/0/b06a50bcf8fad031ad34394cdf63b3604e4c8aa9.png
+> A: ![Image Text](https://forum.cocos.org/uploads/default/original/3X/b/0/b06a50bcf8fad031ad34394cdf63b3604e4c8aa9.png)
 > A: 在防火墙里面配置，把cocos全部允许通过
 
 [4、2.2.0打包安卓 字体投影效果失效，ttf字体](https://forum.cocos.org/t/2-2-0-ttf/87896)
@@ -107,10 +107,10 @@ cc.find("Canvas/cocos").getComponent(cc.Sprite).setMaterial(0, grayMaterial);
 
 [6、资源无法释放的问题](https://forum.cocos.org/t/1-9-1-10/59449/45?u=337031709)
 > A: 这些 JS 引用你需要清理下
-https://forum.cocos.org/uploads/default/original/3X/2/e/2e8f71bd75c26c2528d44acc718d0ed90ed672f1.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/2/e/2e8f71bd75c26c2528d44acc718d0ed90ed672f1.png)
 > 销毁是需要 node.destroy 的，而不只是销毁组件
-https://forum.cocos.org/uploads/default/original/3X/0/9/099c8ea65e1b36590363b1657c1f343bbee89aee.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/0/9/099c8ea65e1b36590363b1657c1f343bbee89aee.png)
 > **避免在控制台打印对象日志，这个会产生内存的，导致误判**
-https://forum.cocos.org/uploads/default/original/3X/d/9/d9557f007ef402a8899edd1b3df19bcd734c0e63.png
+![Image Text](https://forum.cocos.org/uploads/default/original/3X/d/9/d9557f007ef402a8899edd1b3df19bcd734c0e63.png)
 > 基本都是用法问题，使用JS语言，要细心，不然很容易数据泄漏的，还有节点不用都需要调用destroy，不然会出现内存泄漏，下面是修复前后的代码比对 (该处理基于2.2.x)。
 https://forum.cocos.org/uploads/default/original/3X/9/9/99243a3f0611163f2a60886273d1b53f5da811c7.zip
