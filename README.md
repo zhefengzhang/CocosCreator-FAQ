@@ -17,3 +17,5 @@
 [【CocosCreator 常见问题归纳】第八期](https://forum.cocos.org/t/cococscreator/87919)
 
 [【CocosCreator 常见问题归纳】第九期](https://forum.cocos.org/t/cococscreator/88850)
+
+[【CocosCreator 常见问题归纳】第十期](https://forum.cocos.org/t/cococscreator/90174)
