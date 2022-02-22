@@ -1,5 +1,7 @@
 # 【CococsCreator 常见问题归纳】第十一期
+本系列文档已经同步上传到 [github](https://github.com/Jno1995/CocosCreator-FAQ)
 
+---
 *往期记录：*
 
 [【CocosCreator 常见问题归纳】第一期](https://forum.cocos.com/t/cocoscreator/74555)
