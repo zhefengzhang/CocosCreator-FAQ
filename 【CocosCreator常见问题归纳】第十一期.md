@@ -87,7 +87,7 @@
 
 <details>
  <summary>CocosCreator 3.x 怎么去掉自带加载界面</summary>
- > 安装一下 [vc_redist.ext](https://aka.ms/vs/17/release/vc_redist.x64.exe) 即可。
+ > 安装一下 vc_redist.exe:https://aka.ms/vs/17/release/vc_redist.x64.exe 即可。
 
  [查看原文](https://forum.cocos.org/t/topic/131245)
 </details>
