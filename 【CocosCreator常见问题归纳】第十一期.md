@@ -26,12 +26,12 @@
 
 ---
 
-[部分PR周知：](https://github.com/cocos-creator/engine/pulls)
+[部分PR周知](https://github.com/cocos-creator/engine/pulls)
 
 [ instantiate-jit.ts 中 obj.node 为空的时候，导致程序异常 ](https://github.com/cocos-creator/engine/pull/10128)
 
 ---
-*常见问题：*
+*常见问题*
 <details>
  <summary>Creator3.X 微信小游戏开放数据域排行榜显示问题</summary>
  > 找到问题了，subContextView 分辨率设置问题，改成 480 * 600 就好了。
@@ -89,7 +89,11 @@
 
 <details>
  <summary>CocosCreator 3.x 怎么去掉自带加载界面</summary>
- > 安装一下 vc_redist.exe:https://aka.ms/vs/17/release/vc_redist.x64.exe 即可。
+ > · 构建面板上直接修改；
+   · 修改构建完成的配置文件：src/setting.json -> totalTime;
+   · 修改源码：\engine\cocos\core\splash-screen.ts；
+   
+   ![Image Text](https://forum.cocos.org/uploads/default/original/3X/0/6/0606df63f19254b20b9f9fb63dce79462f2492f8.png)
 
  [查看原文](https://forum.cocos.org/t/topic/131245)
 </details>
@@ -100,3 +104,8 @@
 
  [查看原文](https://forum.cocos.org/t/topic/131303)
 </details>
+
+---
+*论坛精华*
+
+[关于 Cocos Creator 在 Chrome 控制台性能调试·指东不指南(略讲)](https://forum.cocos.org/t/topic/131318)
