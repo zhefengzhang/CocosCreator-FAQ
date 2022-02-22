@@ -5,7 +5,8 @@
 
 [部分PR周知](https://github.com/cocos-creator/engine/pulls)
 
-[ instantiate-jit.ts 中 obj.node 为空的时候，导致程序异常 ](https://github.com/cocos-creator/engine/pull/10128)
+> [ instantiate-jit.ts 中 obj.node 为空的时候，导致程序异常 ](https://forum.cocos.org/t/topic/126649)
+ pr: https://github.com/cocos-creator/engine/pull/10128
 
 ---
 *常见问题*
