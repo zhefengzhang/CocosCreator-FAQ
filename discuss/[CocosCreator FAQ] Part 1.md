@@ -4,6 +4,10 @@
 	If the situation is urgent @us. (@linrm, @Koei, @muxiandong, @huanxinyin)
 	If there are some programs that we haven't put together yet, please leave a comment at the bottom of the post.
 ---
+
+This series of documents has been synchronized and uploaded to [github.](https://github.com/zhefengzhang/CocosCreator-FAQ/tree/master/discuss)
+
+---
 [CocosCreator Document](https://docs.cocos.com/creator/manual/en/)
 
 [CocosCreatorAPI](https://docs.cocos.com/creator/api/en/#/)
