@@ -5,12 +5,19 @@
 	If there are some programs that we haven't put together yet, please leave a comment at the bottom of the post.
 ---
 [CocosCreator Document](https://docs.cocos.com/creator/manual/en/)
+
 [CocosCreatorAPI](https://docs.cocos.com/creator/api/en/#/)
+
 [CocosCreator Release](https://www.cocos.com/creator)
+
 [CocosCreator Downloader](https://www.cocos.com/download)
+
 [CocosCreator Engine](https://github.com/cocos-creator/engine)
+
 [CocosCreator Engine Native](https://github.com/cocos-creator/engine-native)
+
 [Third-party tools and resources](https://docs.cocos.com/creator/manual/en/getting-started/support.html)
+
 [Feedback to the development team](https://github.com/cocos-creator/engine/issues)
 
 #### **CocosCreator component-based development and editor extensions**
