@@ -100,9 +100,9 @@ This series of documents has been synchronized and uploaded to [github.](https:/
  <summary>Error when custom template build in cocos creator v2.4.6</summary>
  > The build-templates folder will copy all index.html to build, you can custom build folder for fb-instant-games in engine build-templates :
 
- ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/d/7/d7c596c3175a97f76c1f03e5f00b685e93ddd126.png）
-
-  [View original article](https://discuss.cocos2d-x.org/t/error-when-custom-template-build-in-cocos-creator-v2-4-6/55620/)
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/d/7/d7c596c3175a97f76c1f03e5f00b685e93ddd126.png)
+ 
+ [View original article](https://discuss.cocos2d-x.org/t/error-when-custom-template-build-in-cocos-creator-v2-4-6/55620/)
 </details>
 
 <details>
