@@ -1,12 +1,5 @@
-# 【CococsCreator 常见问题归纳】第十一期
+# 【CococsCreator 常见问题归纳】第十二期
 本系列文档已经同步上传到 [github](https://github.com/Jno1995/CocosCreator-FAQ)
-
----
-
-[部分PR周知](https://github.com/cocos-creator/engine/pulls)
-
-> [ instantiate-jit.ts 中 obj.node 为空的时候，导致程序异常 ](https://forum.cocos.org/t/topic/126649)
- pr: https://github.com/cocos-creator/engine/pull/10128
 
 ---
 *常见问题*
