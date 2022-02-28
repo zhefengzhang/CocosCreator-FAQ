@@ -88,10 +88,10 @@ This series of documents has been synchronized and uploaded to [github.](https:/
  <summary>Need help with creating an animation clip in script</summary>
  > If you want to create a clip with 2 frames of the property x you need to customize engine. Here is my customize code :
 
- ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/3/b/3b1688c9c6b556a915e7f2fa7fbda8462a26b1b9.png）
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/3/b/3b1688c9c6b556a915e7f2fa7fbda8462a26b1b9.png)
  and use code:
 
- ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/5/f/5f6c117c56b2768bc2b2c655e7eadf114768f482.png）
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/5/f/5f6c117c56b2768bc2b2c655e7eadf114768f482.png)
 
  [View original article](https://discuss.cocos2d-x.org/t/need-help-with-creating-an-animation-clip-in-script/55601/)
 </details>
