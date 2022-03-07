@@ -83,3 +83,50 @@ This series of documents has been synchronized and uploaded to [github.](https:/
 
  [View original article](https://discuss.cocos2d-x.org/t/need-help-on-using-inversifyjs-constructor-injection-syntaxerror/55391)
 </details>
+<details>
+ <summary>Need help with creating an animation clip in script</summary>
+ > If you want to create a clip with 2 frames of the property x you need to customize engine. Here is my customize code :
+
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/3/b/3b1688c9c6b556a915e7f2fa7fbda8462a26b1b9.png)
+ and use code:
+
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/5/f/5f6c117c56b2768bc2b2c655e7eadf114768f482.png)
+
+ [View original article](https://discuss.cocos2d-x.org/t/need-help-with-creating-an-animation-clip-in-script/55601/)
+</details>
+
+<details>
+ <summary>Error when custom template build in cocos creator v2.4.6</summary>
+ > The build-templates folder will copy all index.html to build, you can custom build folder for fb-instant-games in engine build-templates :
+
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/d/7/d7c596c3175a97f76c1f03e5f00b685e93ddd126.png)
+ 
+ [View original article](https://discuss.cocos2d-x.org/t/error-when-custom-template-build-in-cocos-creator-v2-4-6/55620/)
+</details>
+
+<details>
+ <summary>Should I use any cache mode for Label if I use BITMAP font file?</summary>
+ > If you use BMFont , you should select none.BMFont does not require this optimization.
+
+ [View original article](https://discuss.cocos2d-x.org/t/should-i-use-any-cache-mode-for-label-if-i-use-bitmap-font-file/55315)
+</details>
+
+<details>
+ <summary>Render the camera immediately</summary>
+ > You can refer to :https://github.com/cocos-creator/CococsCreator-public-technology-solutions/blob/3.4.0-release/demo/Creator3.4.0_PartialScreenshot/assets/script/Screenshot2D.ts
+
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/2/7/2747f2f9d87f2c81f0b208663496d9bf4a5352d7.png)
+
+ [View original article](https://discuss.cocos2d-x.org/t/render-the-camera-immediately/55322)
+</details>
+
+<details>
+ <summary>Hello world project CC 3.4, Native build (Mac OS) - Failed</summary>
+ > It may cause by XCode 11.3, you need to update XCode to at least 11.5.
+
+ ![image|641x500](https://discuss.cocos2d-x.org/uploads/default/original/3X/b/f/bfd95e87f8104ee2e21bd2fcc856435fc3808433.png)
+
+ refer to :https://github.com/cocos-creator/engine-native
+
+ [View original article](https://discuss.cocos2d-x.org/t/hello-world-project-cc-3-4-native-build-mac-os-failed/55360/)
+</details>
