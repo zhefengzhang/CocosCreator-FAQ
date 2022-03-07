@@ -130,4 +130,5 @@ This series of documents has been synchronized and uploaded to [github.](https:/
  refer to :https://github.com/cocos-creator/engine-native
 
  [View original article](https://discuss.cocos2d-x.org/t/hello-world-project-cc-3-4-native-build-mac-os-failed/55360/)
+
 </details>
