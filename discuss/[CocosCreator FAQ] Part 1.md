@@ -130,3 +130,4 @@ This series of documents has been synchronized and uploaded to [github.](https:/
 
  [View original article](https://discuss.cocos2d-x.org/t/hello-world-project-cc-3-4-native-build-mac-os-failed/55360/)
 </details>
+
