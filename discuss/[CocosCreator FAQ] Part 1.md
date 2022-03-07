@@ -1,7 +1,7 @@
 ### This post will be updated consistently, no surprises if the frequency once a week. I hope it can help you to learn and develop.
 	This post is intended to continue to shine as a platform for "problems and problem solving". This includes making people like it.
 	If you need help, you can find some references through the forum search. If not, please make a new post.
-	If the situation is urgent @us. (@linrm, @Koei, @muxiandong, @huanxinyin)
+	If the situation is urgent @us. (@slackmoehrle, @linrm, @Koei, @muxiandong, @huanxinyin)
 	If there are some programs that we haven't put together yet, please leave a comment at the bottom of the post.
 ---
 
@@ -83,6 +83,7 @@ This series of documents has been synchronized and uploaded to [github.](https:/
 
  [View original article](https://discuss.cocos2d-x.org/t/need-help-on-using-inversifyjs-constructor-injection-syntaxerror/55391)
 </details>
+
 <details>
  <summary>Need help with creating an animation clip in script</summary>
  > If you want to create a clip with 2 frames of the property x you need to customize engine. Here is my customize code :
@@ -129,5 +130,5 @@ This series of documents has been synchronized and uploaded to [github.](https:/
  refer to :https://github.com/cocos-creator/engine-native
 
  [View original article](https://discuss.cocos2d-x.org/t/hello-world-project-cc-3-4-native-build-mac-os-failed/55360/)
-</details>
 
+</details>
