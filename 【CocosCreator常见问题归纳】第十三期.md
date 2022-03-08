@@ -5,10 +5,14 @@
 *常见问题*
 <details>
  <summary>3.4.1 BUG 拖尾组件和Button</summary>
- 解决方案：<br>
- 1. button 问题可参考 pr: https://github.com/cocos-creator/engine/pull/10084 <br>
- 2. 拖尾报错（this._assembler.updateColor is not a function）：https://github.com/cocos-creator/engine/pull/10055 <br>
- ps：3.4.2 已修复。<br>
+ 解决方案：
+
+ 1. button 问题可参考 pr: https://github.com/cocos-creator/engine/pull/10084 
+   
+ 2. 拖尾报错（this._assembler.updateColor is not a function）：https://github.com/cocos-creator/engine/pull/10055 
+ 
+    ps：3.4.2 已修复。
+    
  [查看原文](https://forum.cocos.org/t/topic/131882)
 </details>
 
@@ -65,22 +69,24 @@
 
  [查看原文](https://forum.cocos.org/t/topic/132014)
 </details>
+
 ---
-*论坛精华*
 
-### [3D渲染技术分享：用实时反射Shader增强画面颜值](https://forum.cocos.org/t/topic/132051)
+### *论坛精华*
 
-### [graphics2D3D带纹理绘制的引擎魔改思路详解](https://forum.cocos.org/t/topic/131608)
+#### [3D渲染技术分享：用实时反射Shader增强画面颜值](https://forum.cocos.org/t/topic/132051)
 
-### [动态导航线分享（开箱即用）](https://forum.cocos.org/t/topic/132097)
+#### [graphics2D3D带纹理绘制的引擎魔改思路详解](https://forum.cocos.org/t/topic/131608)
 
-### [【原生功能接入】扫描二维码功能](https://forum.cocos.org/t/topic/131485)
+#### [动态导航线分享（开箱即用）](https://forum.cocos.org/t/topic/132097)
 
-### [vscode 中使用 eslint 检测、自动格式化 TS 代码](https://forum.cocos.org/t/topic/131873)
+#### [【原生功能接入】扫描二维码功能](https://forum.cocos.org/t/topic/131485)
 
-### [3.x websocket 安卓占用2倍cpu，高耗电解决方案](https://forum.cocos.org/t/topic/132026)
+#### [vscode 中使用 eslint 检测、自动格式化 TS 代码](https://forum.cocos.org/t/topic/131873)
 
-### [CocosCreator3.X构建iOS工程重置的临时方案](https://forum.cocos.org/t/topic/132107)
+#### [3.x websocket 安卓占用2倍cpu，高耗电解决方案](https://forum.cocos.org/t/topic/132026)
+
+#### [CocosCreator3.X构建iOS工程重置的临时方案](https://forum.cocos.org/t/topic/132107)
 ---
 *往期记录*
 
