@@ -20,5 +20,8 @@
 
 [【CocosCreator 常见问题归纳】第十期](https://forum.cocos.org/t/cococscreator/90174)
 
-[【CocosCreator 常见问题归纳】第十一期](https://forum.cocos.org/t/topic/131524
-)
+[【CocosCreator 常见问题归纳】第十一期](https://forum.cocos.org/t/topic/131524)
+
+[【CocosCreator 常见问题归纳】第十二期](https://forum.cocos.org/t/topic/131843)
+
+[【CocosCreator 常见问题归纳】第十三期](https://forum.cocos.org/t/topic/132233)
