@@ -46,7 +46,9 @@
  如果重新设置了SkeletonData, 在设置新SkeletonData 之前清理下RenderData.手动调用 skeletonComp.destroyRenderData();
 
  [查看原文](https://forum.cocos.org/t/topic/132437)
+
  类似问题：
+ 
  [3.4.2 spine换装错误](https://forum.cocos.org/t/topic/132428)
 </details>
 
